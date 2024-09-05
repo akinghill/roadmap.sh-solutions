@@ -1,0 +1,14 @@
+{
+  "name": "task-cli",
+  "version": "0.0.1",
+  "description": "A simple CLI task tracker",
+  "main": "task-tracker.js",
+  "bin": {
+    "task-cli": "./task-tracker.js"
+  },
+  "scripts": {
+    "start": "node task-tracker.js"
+  },
+  "author": "Austin Hill",
+  "license": "MIT"
+}
