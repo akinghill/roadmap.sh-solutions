@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple HTML-only website">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A simple HTML-only website for roadmap.sh frontend" />
+    <meta name="keywords" content="Frontend Project, HTML, Roadmap.sh" />
+    <meta name="author" content="Austin Hill" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <span class="logo">
+        H
+      </span>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="toggle-theme" onclick="toggleTheme()">
+        <svg id="sun_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+
+        <svg id='moon_icon' style="display: none;" xmlns=" http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+
+      </button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Software Engineer</h1>
+        <p>
+          I use tech to build tech.
+        </p>
+      </section>
+
+      <div class="flex-wrapper">
+        <section class="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>HTML Only Portfolio</li>
+            <li>Calculator</li>
+            <li>Quiz App</li>
+            <li>Countdown Timer</li>
+            <li>Product Upcoming Page</li>
+          </ul>
+        </section>
+
+        <section class="work-experience">
+          <h2>Work Experience</h2>
+          <article>
+            <h3>roadmap.sh</h3>
+            <p>Solved all the frontend projects</p>
+            <a href="https://roadmap.sh/u/akinghill">Visit my Profile</a>
+          </article>
+          <article>
+            <h3>OpenSource Work</h3>
+            <p>Contributed to 50 open-source projects. Made my own projects with 200 GitHub Stars.</p>
+            <a href="https://github.com/akinghill">Visit my GitHub Profile</a>
+          </article>
+        </section>
+
+        <section class="education">
+          <h2>Education</h2>
+          <p>
+            Undergraduate in Computer Science from Western Governors University
+          </p>
+          <p>
+            Courses:
+          </p>
+          <ul>
+            <li>Object Oriented Programming</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Web Engineering</li>
+            <li>Artificial Intelligence</li>
+            <li>Human-Computer Interaction</li>
+            <li>Computer Graphics</li>
+            <li>Database Management Systems</li>
+            <li>Distributed Database Systems</li>
+            <li>Discrete Mathematics</li>
+          </ul>
+        </section>
+      </div>
+
+      <aside class="reviews">
+        <h2>Feedback from Peers</h2>
+        <div class="feedback-wrapper">
+          <blockquote>
+            <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+            <footer>Jane Doe, Assistant Professor</footer>
+          </blockquote>
+          <blockquote>
+            <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+            <footer>Jane Doe, Assistant Professor</footer>
+          </blockquote>
+          <blockquote>
+            <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+            <footer>Jane Doe, Assistant Professor</footer>
+          </blockquote>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; all rights reserved 2024</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
