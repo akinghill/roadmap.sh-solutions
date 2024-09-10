@@ -1,10 +1,9 @@
-/* CSS Variables for Light and Dark Mode */
 :root {
   --background-color: #fff;
   --text-color: #000;
   --accent-color: #007acc;
-  --accent-hover-color: #005bb5; /* Lighter hover color for light mode */
-  --accent-active-color: #003f87; /* Darker active color for light mode */
+  --accent-hover-color: #005bb5;
+  --accent-active-color: #003f87;
   --border-color: #e0e0e0;
 }
 
@@ -12,8 +11,8 @@
   --background-color: #121212;
   --text-color: #e0e0e0;
   --accent-color: #bb86fc;
-  --accent-hover-color: #9f63d6; /* Hover color for dark mode */
-  --accent-active-color: #7e3eb0; /* Active color for dark mode */
+  --accent-hover-color: #9f63d6;
+  --accent-active-color: #7e3eb0;
   --border-color: #333;
 }
 
@@ -35,7 +34,6 @@ h1,
 h2,
 h3 {
   margin-bottom: 1rem;
-  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
