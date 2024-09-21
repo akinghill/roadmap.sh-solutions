@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Navigation */
+.nav-item {
+  position: relative;
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #0073e6;
+}
+
+/* Tooltip */
+.nav-item .tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  position: absolute;
+  bottom: 150%;
+  /* Position above the link */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  font-size: 14px;
+  pointer-events: none;
+  /* Prevent hover interaction with tooltip */
+}
+
+/* Tooltip Arrow */
+.tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+/* Hover Effect */
+.nav-item:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Tooltip Animations */
+/* Fade-in Effect */
+.fade-in .tooltip {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.fade-in:hover .tooltip {
+  opacity: 1;
+}
+
+/* Slide-in from bottom Effect */
+.slide-in .tooltip {
+  transform: translateX(-50%) translateY(10px);
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.slide-in:hover .tooltip {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
+/* Scale-in Effect */
+.scale-in .tooltip {
+  transform: translateX(-50%) scale(0);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.scale-in:hover .tooltip {
+  transform: translateX(-50%) scale(1);
+  opacity: 1;
+}
