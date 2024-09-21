@@ -11,6 +11,7 @@
 - [x] [Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)
 - [x] [Image Grid Layout](https://roadmap.sh/projects/image-grid)
 - [x] [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)
+- [x] [Custom Dropdown](https://roadmap.sh/projects/custom-dropdown)
 
 ## [Backend Projects](https://roadmap.sh/backend)
 
