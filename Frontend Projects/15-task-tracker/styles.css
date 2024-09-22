@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+input[type='text'] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+button#addTaskBtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+button img {
+  stroke: #fff;
+  fill: #fff;
+}
+
+button:hover {
+  background-color: #3e3e3e;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ce2c31;
+  display: flex;
+  align-items: center;
+}
+
+.delete-btn:hover {
+  color: white;
+  background-color: #ce2c31;
+}
+
+#taskList li span {
+  flex-grow: 1;
+}

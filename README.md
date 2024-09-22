@@ -12,6 +12,7 @@
 - [x] [Image Grid Layout](https://roadmap.sh/projects/image-grid)
 - [x] [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)
 - [x] [Custom Dropdown](https://roadmap.sh/projects/custom-dropdown)
+- [x] [Task Tracker](https://roadmap.sh/projects/task-tracker)
 
 ## [Backend Projects](https://roadmap.sh/backend)
 
