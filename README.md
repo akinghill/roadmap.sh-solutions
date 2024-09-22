@@ -11,6 +11,13 @@
 - [x] [Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)
 - [x] [Image Grid Layout](https://roadmap.sh/projects/image-grid)
 - [x] [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)
+- [x] [Simple Tabs](https://roadmap.sh/projects/simple-tabs)
+- [ ] [Cookie Consent] (https://roadmap.sh/projects/cookie-consent)
+- [ ] [Restricted Textarea](https://roadmap.sh/projects/restricted-textarea)
+- [ ] [Accordion UI](https://roadmap.sh/projects/accordion-ui)
+- [ ] [Github Random Repo](https://roadmap.sh/projects/github-random-repo)
+- [ ] [Reddit Client](https://roadmap.sh/projects/reddit-client)
+- [ ] [Temperature Converter](https://roadmap.sh/projects/temperature-converter)
 - [x] [Custom Dropdown](https://roadmap.sh/projects/custom-dropdown)
 - [x] [Task Tracker](https://roadmap.sh/projects/task-tracker-js)
 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Tabs</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <div class="tabs">
+      <div class="tab-links">
+        <button class="tab-link active" onclick="openTab(event, 'Tab1')">First Tab</button>
+        <button class="tab-link" onclick="openTab(event, 'Tab2')">Second Tab</button>
+        <button class="tab-link" onclick="openTab(event, 'Tab3')">Third Tab</button>
+        <button class="tab-link" onclick="openTab(event, 'Tab4')">Fourth Tab</button>
+      </div>
+
+      <div class="tab-content" id="Tab1">
+        <h2>Content for Tab 1</h2>
+        <p>This is the content of Tab 1. It is shown by default.</p>
+        <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, suscipit?
+        </p>
+      </div>
+      <div class="tab-content" id="Tab2" style="display: none;">
+        <h2>Content for Tab 2</h2>
+        <p>This is the content of Tab 2.</p>
+      </div>
+      <div class="tab-content" id="Tab3" style="display: none;">
+        <h2>Content for Tab 3</h2>
+        <p>This is the content of Tab 3.</p>
+      </div>
+      <div class="tab-content" id="Tab4" style="display: none;">
+        <h2>Content for Tab 4</h2>
+        <p>This is the content of Tab 4.</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
