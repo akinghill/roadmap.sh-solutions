@@ -14,12 +14,12 @@
 - [x] [Simple Tabs](https://roadmap.sh/projects/simple-tabs)
 - [x] [Cookie Consent](https://roadmap.sh/projects/cookie-consent)
 - [x] [Restricted Textarea](https://roadmap.sh/projects/restricted-textarea)
-- [ ] [Accordion UI](https://roadmap.sh/projects/accordion-ui)
+- [x] [Accordion UI](https://roadmap.sh/projects/accordion)
+- [x] [Custom Dropdown](https://roadmap.sh/projects/custom-dropdown)
+- [x] [Task Tracker](https://roadmap.sh/projects/task-tracker-js)
 - [ ] [Github Random Repo](https://roadmap.sh/projects/github-random-repo)
 - [ ] [Reddit Client](https://roadmap.sh/projects/reddit-client)
 - [ ] [Temperature Converter](https://roadmap.sh/projects/temperature-converter)
-- [x] [Custom Dropdown](https://roadmap.sh/projects/custom-dropdown)
-- [x] [Task Tracker](https://roadmap.sh/projects/task-tracker-js)
 
 ## [Backend Projects](https://roadmap.sh/backend)
 
