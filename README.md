@@ -12,7 +12,7 @@
 - [x] [Image Grid Layout](https://roadmap.sh/projects/image-grid)
 - [x] [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)
 - [x] [Simple Tabs](https://roadmap.sh/projects/simple-tabs)
-- [x] [Cookie Consent] (https://roadmap.sh/projects/cookie-consent)
+- [x] [Cookie Consent](https://roadmap.sh/projects/cookie-consent)
 - [ ] [Restricted Textarea](https://roadmap.sh/projects/restricted-textarea)
 - [ ] [Accordion UI](https://roadmap.sh/projects/accordion-ui)
 - [ ] [Github Random Repo](https://roadmap.sh/projects/github-random-repo)
