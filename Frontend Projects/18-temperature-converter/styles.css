@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.converter-container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input[type='number'] {
+  width: 70px;
+}
+
+input,
+select {
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: green;
+  font-weight: bold;
+}
