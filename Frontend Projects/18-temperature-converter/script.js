@@ -22,7 +22,7 @@ toUnit.addEventListener('change', checkFields);
 // Temperature conversion function
 function convertTemperature(temp, from, to) {
   if (from === to) {
-    return temp; // If from and to units are the same, return the same value
+    return temp;
   }
 
   let convertedTemp;
