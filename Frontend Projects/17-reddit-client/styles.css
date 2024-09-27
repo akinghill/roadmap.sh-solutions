@@ -1,0 +1,270 @@
+/* Theme Variables */
+:root {
+  --background-color: #fff;
+  --text-color: #000;
+  --text-accent-color: #666;
+  --accent-color: #007acc;
+  --accent-hover-color: #005bb5;
+  --accent-active-color: #003f87;
+  --border-color: #e0e0e0;
+}
+
+[data-theme='dark'] {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --text-accent-color: #a3a3a3;
+  --accent-color: #bb86fc;
+  --accent-hover-color: #9f63d6;
+  --accent-active-color: #7e3eb0;
+  --border-color: #333;
+}
+
+/* Global Resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Layout */
+#app,
+.lanes-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.lanes,
+.lane-header,
+.votes,
+.post-content {
+  display: flex;
+}
+
+.lanes-container {
+  gap: 20px;
+  padding-right: 80px;
+  position: relative;
+}
+
+.lanes {
+  flex-direction: row;
+}
+
+.lane {
+  max-width: 350px;
+  border-right: 1px solid var(--border-color);
+}
+
+/* Buttons */
+button,
+.options-button,
+.upvote {
+  border: none;
+  cursor: pointer;
+  background: none;
+  padding: 0;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+.upvote:hover {
+  background-color: var(--accent-hover-color);
+}
+
+.options-button {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.options-button span,
+.options-button::before,
+.options-button::after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.options-button::before {
+  top: 10px;
+}
+.options-button::after {
+  top: 24px;
+}
+.options-button span {
+  top: 17px;
+}
+
+/* Options Menu */
+.options-menu {
+  position: absolute;
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.options-menu button {
+  padding: 18px 32px;
+  text-align: left;
+  color: var(--text-color);
+}
+
+.options-menu button:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.options-menu button:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+/* Hidden Class */
+.hidden {
+  display: none;
+}
+
+/* Lane Header */
+.lane-header {
+  justify-content: space-between;
+  padding: 12px;
+  align-items: center;
+  position: relative;
+}
+
+/* Add Lane Button */
+.add-lane-button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-color: var(--accent-color);
+  color: var(--background-color);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-lane-button:hover {
+  background-color: var(--accent-hover-color);
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+}
+
+.modal-overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: var(--background-color);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: var(--text-color);
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.modal-content input:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
+.modal-content button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--accent-color);
+  color: var(--background-color);
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.modal-content button:hover {
+  background-color: var(--accent-hover-color);
+}
+
+/* Post Layout */
+.post {
+  padding: 12px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+}
+
+.votes {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.vote-count {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.post-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0 0 8px;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.post-title:hover {
+  color: var(--accent-color);
+}
+
+.post-author {
+  font-size: 0.875rem;
+  color: var(--text-accent-color);
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+}
