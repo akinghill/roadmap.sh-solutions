@@ -18,7 +18,7 @@
 - [x] [Custom Dropdown](https://roadmap.sh/projects/custom-dropdown)
 - [x] [Task Tracker](https://roadmap.sh/projects/task-tracker-js)
 - [ ] [Github Random Repo](https://roadmap.sh/projects/github-random-repo)
-- [ ] [Reddit Client](https://roadmap.sh/projects/reddit-client)
+- [x] [Reddit Client](https://roadmap.sh/projects/reddit-client)
 - [x] [Temperature Converter](https://roadmap.sh/projects/temperature-converter)
 
 ## [Backend Projects](https://roadmap.sh/backend)
