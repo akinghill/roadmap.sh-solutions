@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Random Repo</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/67ba396d48.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <img width="32" src="../../assets/question-dice.svg" alt="Question Dice" />
+        <h1>GitHub Repo Finder</h1>
+      </header>
+
+      <select id="language-select">
+        <option value="">Select a language</option>
+      </select>
+
+      <div class="response-container" id="repo-details">
+        <p>
+          Please select a language
+        </p>
+      </div>
+      <div class="response-container loading" id="loading" style="display:none;">Loading...</div>
+      <div class="response-container error" id="error" style="display:none;">Something went wrong. Please try again.</div>
+      <div class="response-container empty" id="empty" style="display:none;">No repository found.</div>
+      <button id="refresh" style="display:none;">Refresh</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

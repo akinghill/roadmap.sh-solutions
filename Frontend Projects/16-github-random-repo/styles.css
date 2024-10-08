@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+select {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100%;
+}
+
+.response-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ccc;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  min-height: 100px;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.response-container.error {
+  background-color: rgb(221, 127, 127);
+}
+
+.response-container h2 {
+  margin: 0;
+}
+
+.response-container p {
+  margin: 0.5rem 0;
+}
+
+.repo-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.refresh-results {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.refresh-results:hover {
+  background-color: #f0f0f0;
+}
