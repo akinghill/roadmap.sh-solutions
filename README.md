@@ -51,3 +51,48 @@ Click any of the images below to view the readme and live demo of the project.
     <img width="48%" src="./assets/images/image-grid-layout.png" alt="image grid layout" />
   </a>
 </p>
+
+<p align="left">
+  <a href='/Frontend Projects/09-tooltip-ui/'>
+    <img width="48%" src="./assets/images/tooltip-ui.png" alt="tooltip ui" />
+  </a>
+  <a href='/Frontend Projects/10-simple-tabs/'>
+    <img width="48%" src="./assets/images/simple-tabs.png" alt="simple tabs" />
+  </a>
+</p>
+
+<p align="left">
+  <a href='/Frontend Projects/11-cookie-consent/'>
+    <img width="48%" src="./assets/images/cookie-consent.png" alt="cookie consent" />
+  </a>
+  <a href='/Frontend Projects/12-restricted-textarea/'>
+    <img width="48%" src="./assets/images/restricted-textarea.png" alt="restricted textarea" />
+  </a>
+</p>
+
+<p align="left">
+  <a href='/Frontend Projects/13-accordion-ui/'>
+    <img width="48%" src="./assets/images/accordion-ui.png" alt="accordion ui" />
+  </a>
+  <a href='/Frontend Projects/14-custom-dropdown/'>
+    <img width="48%" src="./assets/images/custom-dropdown.png" alt="custom dropdown" />
+  </a>
+</p>
+
+<p align="left">
+  <a href='/Frontend Projects/15-task-tracker/'>
+    <img width="48%" src="./assets/images/task-tracker.png" alt="task tracker js" />
+  </a>
+  <a href='/Frontend Projects/16-github-random-repo/'>
+    <img width="48%" src="./assets/images/github-random-repo.png" alt="github random repo" />
+  </a>
+</p>
+
+<p align="left">
+  <a href='/Frontend Projects/17-reddit-client/'>
+    <img width="48%" src="./assets/images/reddit-client.png" alt="reddit client" />
+  </a>
+  <a href='/Frontend Projects/18-temperature-converter/'>
+    <img width="48%" src="./assets/images/temperature-converter.png" alt="temperature converter" />
+  </a>
+</p>
