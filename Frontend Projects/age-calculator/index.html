@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="https://unpkg.com/js-datepicker/dist/datepicker.min.css">
+    <script type="importmap">
+      {
+        "imports": {
+          "luxon": "/node_modules/luxon/src/luxon.js"
+        }
+      }
+    </script>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        max-width: 250px;
+        gap: .5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Age Calculator</h1>
+    <label for="date">Enter your birth date:</label>
+    <input type="text" id="datepicker">
+    <button id="calculate-btn">Calculate</button>
+    <div id="result"></div>
+    <script src="https://unpkg.com/js-datepicker"></script>
+    <script>
+      const picker = datepicker('#datepicker')
+    </script>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
